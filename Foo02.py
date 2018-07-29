@@ -44,7 +44,56 @@ def custom_array(rows, cols, offset):
 
     return base + epsilon
 
-z = custom_array(5, 1, 3)
+print('==== function here ===')
+z = custom_array(3, 1, 0)
 print(z)
+
+# Create class for practice. This one checks metrics on a single column array
+class metrics:
+    """
+    Good practice to put a doc string
+    I want to practice and do metrics on a column vector
+    """
+    import numpy as np
+
+    def __init__(self, col_vec):
+        self.vector = col_vec
+        self.type = type(col_vec)
+        self.len = len(col_vec)
+        self.shape = col_vec.shape
+        self.mean = col_vec.mean(axis=0)
+        self.median = col_vec.mean(axis=0)
+        self.std = col_vec.std(axis=0)
+
+    def double(self):
+        return self.vector * 2
+
+    def sqrt(self):
+        return self.vector ** 0.5
+
+my_col = custom_array(5, 1, 1)
+
+print('==== class here ===')
+b = metrics(my_col)
+
+print(b.vector)
+print()
+print(b.type)
+print()
+print(b.len)
+print()
+print(b.shape)
+print()
+print(b.mean)
+print()
+print(b.median)
+print()
+print(b.std)
+print()
+print(b.double())
+print()
+print(b.sqrt())
+
+
 
 
