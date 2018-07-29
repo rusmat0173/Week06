@@ -1,5 +1,6 @@
 """
 Build my own super simple Machine Learning Classifier!?!
+(Actually used code in the Rashka book, @ location 11%.)
 
 I will create an array where if (e.g.) 0.5*X0 + 0.6*X1 >= 5, Y = 1 else Y = -1
 
@@ -20,8 +21,8 @@ import matplotlib.pyplot as plt
 
 
 # create a dataset array, first create fixed random seed
-np.random.seed(seed=100)
-predictors = np.random.randint(0,9,(50,2))
+np.random.seed(seed=200)
+predictors = np.random.randint(0,9,(100,2))
 
 # create target variables
 def create_targets(predictors, frac0, frac1):
@@ -59,7 +60,7 @@ class Perceptron(object):
     """
     abc
     """
-    def __init__(self, eta=0.01, n_iter=50, random_state=100):
+    def __init__(self, eta=0.01, n_iter=25, random_state=4):
         self.eta = eta
         self.n_iter = n_iter
         self.random_state = random_state
@@ -91,11 +92,15 @@ X = predictors
 y = cat_targets
 print(X.shape, y.shape)
 
-ppn = Perceptron(eta=0.1, n_iter=10)
+ppn = Perceptron(eta=0.1, n_iter=35)
 ppn.fit(X,y)
 
 plt.plot(range(1, len(ppn.errors_) + 1), ppn.errors_, marker='o')
 plt.xlabel('Epochs')
+# An epoch is a measure of the number of times all of the training vectors
+# are used once to update the weights.
 plt.ylabel('Number of updates')
 plt.show()
+
+
 
