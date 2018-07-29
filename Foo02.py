@@ -71,6 +71,9 @@ class metrics:
     def sqrt(self):
         return self.vector ** 0.5
 
+    def half(self):
+        return self.vector * 0.5
+
 my_col = custom_array(5, 1, 1)
 
 print('==== class here ===')
@@ -93,6 +96,8 @@ print()
 print(b.double())
 print()
 print(b.sqrt())
+print()
+print(b.half())
 
 
 
