@@ -38,7 +38,7 @@ def make_categorical(targets):
             categories.append(1)
     return np.asarray(categories)
 
-# numpy-esque method? (N.B. temp returns True/False)
+# numpy-esque method? (N.B. temp returns True/False vector)
 def make_categorical2(targets, cutoff):
      temp = targets < cutoff
      return ((temp * 2) - 1) * -1
