@@ -102,7 +102,7 @@ plt.xlabel('Epochs')
 plt.ylabel('Number of updates')
 plt.show()
 
-# foo comment
+# foo comments
 
 
 
