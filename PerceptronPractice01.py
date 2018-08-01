@@ -297,3 +297,5 @@ plt.xlabel('Epochs')
 # are used once to update the weights.
 plt.ylabel('Number of updates')
 plt.show()
+
+# foo comment
