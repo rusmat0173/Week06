@@ -99,7 +99,7 @@ print(b.sqrt())
 print()
 print(b.half())
 
-# foo comment
+# foo comments
 
 
 
