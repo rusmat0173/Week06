@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb344e09-a311-4b1d-b9bc-514cca2d5baa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MadClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadClassifier.py" afterDir="false" />
-    </list>
+    <list default="true" id="cb344e09-a311-4b1d-b9bc-514cca2d5baa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,24 +12,24 @@
     <session id="-564688823">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="20" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -53,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.conda/envs/foo1/lib/python3.6/tokenize.py">
+        <entry file="file://$PROJECT_DIR$/MadClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4670">
-              <caret line="451" selection-start-line="451" selection-end-line="451" />
+            <state relative-caret-position="114">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -95,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +102,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,8 +318,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="214" y="23" width="919" height="622" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3496659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3496659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,6 +351,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/practice_classes01.py" />
     <entry file="file://$PROJECT_DIR$/Foo02.py" />
+    <entry file="file://$PROJECT_DIR$/foo.ipynb" />
+    <entry file="file://$USER_HOME$/.conda/envs/foo1/lib/python3.6/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/While_Practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -362,26 +367,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Numpy_Classes_practice.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1115" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MadClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="114">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/foo1/lib/python3.6/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4670">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
         </state>
       </provider>
     </entry>
